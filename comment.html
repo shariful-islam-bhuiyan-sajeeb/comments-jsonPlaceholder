@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment box website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .comment{
+            color: white;
+            background-color: rgb(67, 141, 67);
+            
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 4px 2px #888888;
+        }
+        #horizontal{
+            width: auto;
+            height: 2px;
+            margin-bottom: 30px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="bg-emerald-300">
+    <header></header>
+    <main>
+        <section class="container mx-auto mt-12 bg-yellow-100 px-8 py-12 drop-shadow-2xl ">
+            <h1 class="text-5xl font-semibold text-center text-indigo-700 mb-5 ">Comment Box documents.....</h1>
+            <p id="horizontal"></p>
+            <div id="comment-container">
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/comment.js"></script>
+</body>
+</html>
