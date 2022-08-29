@@ -14,7 +14,7 @@ const displayComment=(comments) =>{
            <h2>Name:${comment.name} </h2>
            <h2>Email: ${comment.email} </h2>
            <h2>Id: ${comment.id}</h2>
-           <p> body:${comment.body} </p>
+           <p> body:${comment.body.slice(1,100)} </p>
 
      `; 
      commentContainer.appendChild(commentDiv);
